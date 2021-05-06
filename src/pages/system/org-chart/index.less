@@ -1,0 +1,119 @@
+ .orgContainer {
+   :global {
+    .orgchart{
+      background: #fff;
+    }
+    .orgchart-container{
+      border: none;
+    }
+   }
+ }
+
+ .node {
+   min-width: 140px;
+   border-radius: 3px;
+   border: 1px solid #4c77bf;
+   display: flex;
+   flex-direction: column;
+   transition: .3s;
+   box-shadow: -5px 5px 10px -4px #000;
+ }
+
+ .node:hover {
+   box-shadow: 0px 0px 10px 10px #84ee8d;
+ }
+
+ .top {
+   height: 36px;
+   color: #fff;
+   font-size: 14px;
+   background: #4c77bf;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 0 12px;
+ }
+
+ .title {
+   white-space: nowrap;
+   margin-right: 12px;
+ }
+
+ .content {
+   padding: 3px 12px;
+   background: #fff;
+   flex: 1 1;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+ }
+
+ .item>div {
+   display: flex;
+ }
+
+ .mark {
+   width: 50px;
+   display: flex;
+   justify-content: flex-start;
+   font-size: 14px;
+   margin-right: 4px;
+   white-space: nowrap;
+   color: rgba(0, 0, 0, .45);
+ }
+
+ .action {
+   height: 100%;
+   vertical-align: bottom;
+   align-self: flex-end;
+   padding-bottom: 3px;
+   cursor: pointer;
+ }
+
+//  td.left, .orgchart td.right, .orgchart td.top { border-color: #aaa; }
+//  td>.down { background-color: #aaa; }
+//  .middle-level .title { background-color: #006699; }
+//  .middle-level .content { border-color: #006699; }
+//  .product-dept .title { background-color: #009933; }
+//  .product-dept .content { border-color: #009933; }
+//  .rd-dept .title { background-color: #993366; }
+//  .rd-dept .content { border-color: #993366; }
+//  .pipeline1 .title { background-color: #996633; }
+//  .pipeline1 .content { border-color: #996633; }
+//  .frontend1 .title { background-color: #cc0066; }
+//  .frontend1 .content { border-color: #cc0066; }
+
+//  div.oc-node::after{
+//     color:rebeccapurple !important;
+//  }
+//  .orgchart .oc-node .verticalEdge {
+//    display: none !important;
+//  }
+
+
+
+  // .node:before,
+  // .node:after {
+  //     position: absolute;
+  //     content: "";
+  //     bottom: 12px;
+  //     left: 15px;
+  //     top: 80%;
+  //     width: 45%;
+  //     background: #9B7468;
+  //     z-index: -1;
+  //     -webkit-box-shadow: 0 20px 15px #9B7468;
+  //     -moz-box-shadow: 0 20px 15px #9B7468;
+  //     box-shadow: 0 20px 15px #9B7468;
+  //     -webkit-transform: rotate(-6deg);
+  //     -moz-transform: rotate(-6deg);
+  //     transform: rotate(-6deg);
+  // }
+
+  // .node:after {
+  //     -webkit-transform: rotate(6deg);
+  //     -moz-transform: rotate(6deg);
+  //     transform: rotate(6deg);
+  //     right: 15px;
+  //     left: auto;
+  // }

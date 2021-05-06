@@ -1,0 +1,213 @@
+@import '~antd/es/style/themes/default.less';
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  touch-action: none;
+}
+
+.colorWeak {
+  filter: invert(80%);
+}
+
+.ant-layout {
+  min-height: 100vh;
+}
+
+canvas {
+  display: block;
+}
+
+body {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: subpixel-antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: "Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif !important;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+@media (max-width: @screen-xs) {
+  .ant-table {
+    width: 100%;
+    overflow-x: auto;
+    &-thead > tr,
+    &-tbody > tr {
+      > th,
+      > td {
+        white-space: pre;
+        > span {
+          display: block;
+        }
+      }
+    }
+  }
+}
+
+// 兼容IE11
+@media screen and(-ms-high-contrast: active), (-ms-high-contrast: none) {
+  body .ant-design-pro > .ant-layout {
+    min-height: 100vh;
+  }
+}
+
+:global{
+// .ant-menu.ant-menu-dark .ant-menu-item-selected, .ant-menu-submenu-popup.ant-menu-dark .ant-menu-item-selected {
+//   background-color: #10d1d1 !important;
+// }
+// .ant-menu-dark, .ant-menu-dark .ant-menu-sub {
+//   color: rgba(255, 255, 255, 0.65);
+//   background: #4c83b6 !important;
+// }
+  // .ant-table-row:hover {
+  //   background: #FF6347 !important;
+  // }
+  .colorF0F8FF {background:#F0F8FF}
+  .colorFAEBD7 {background:#FAEBD7}
+  .color7FFFD4 {background:#7FFFD4}
+  .colorF0FFFF {background:#F0FFFF}
+  .colorF5F5DC {background:#F5F5DC}
+  .colorFFE4C4 {background:#FFE4C4}
+  .color000000 {background:#000000}
+  .colorFFEBCD {background:#FFEBCD}
+  .color0000FF {background:#0000FF}
+  .color8A2BE2 {background:#8A2BE2}
+  .colorA52A2A {background:#A52A2A}
+  .colorDEB887 {background:#DEB887}
+  .color5F9EA0 {background:#5F9EA0}
+  .color7FFF00 {background:#7FFF00}
+  .colorD2691E {background:#D2691E}
+  .colorFF7F50 {background:#FF7F50}
+  .color6495ED {background:#6495ED}
+  .colorFFF8DC {background:#FFF8DC}
+  .colorDC143C {background:#DC143C}
+  .color00FFFF {background:#00FFFF}
+  .color00008B {background:#00008B}
+  .color008B8B {background:#008B8B}
+  .colorB8860B {background:#B8860B}
+  .colorA9A9A9 {background:#A9A9A9}
+  .color006400 {background:#006400}
+  .colorBDB76B {background:#BDB76B}
+  .color8B008B {background:#8B008B}
+  .color556B2F {background:#556B2F}
+  .colorFF8C00 {background:#FF8C00}
+  .color9932CC {background:#9932CC}
+  .color8B0000 {background:#8B0000}
+  .colorE9967A {background:#E9967A}
+  .color8FBC8F {background:#8FBC8F}
+  .color483D8B {background:#483D8B}
+  .color2F4F4F {background:#2F4F4F}
+  .color00CED1 {background:#00CED1}
+  .color9400D3 {background:#9400D3}
+  .colorFF1493 {background:#FF1493}
+  .color00BFFF {background:#00BFFF}
+  .color696969 {background:#696969}
+  .color1E90FF {background:#1E90FF}
+  .colorD19275 {background:#D19275}
+  .colorB22222 {background:#B22222}
+  .colorFFFAF0 {background:#FFFAF0}
+  .color228B22 {background:#228B22}
+  .colorDCDCDC {background:#DCDCDC}
+  .colorF8F8FF {background:#F8F8FF}
+  .colorFFD700 {background:#FFD700}
+  .colorDAA520 {background:#DAA520}
+  .color808080 {background:#808080}
+  .color008000 {background:#008000}
+  .colorADFF2F {background:#ADFF2F}
+  .colorF0FFF0 {background:#F0FFF0}
+  .colorFF69B4 {background:#FF69B4}
+  .colorCD5C5C {background:#CD5C5C}
+  .color4B0082 {background:#4B0082}
+  .colorFFFFF0 {background:#FFFFF0}
+  .colorF0E68C {background:#F0E68C}
+  .colorE6E6FA {background:#E6E6FA}
+  .colorFFF0F5 {background:#FFF0F5}
+  .color7CFC00 {background:#7CFC00}
+  .colorFFFACD {background:#FFFACD}
+  .colorADD8E6 {background:#ADD8E6}
+  .colorF08080 {background:#F08080}
+  .colorE0FFFF {background:#E0FFFF}
+  .colorFAFAD2 {background:#FAFAD2}
+  .colorD3D3D3 {background:#D3D3D3}
+  .color90EE90 {background:#90EE90}
+  .colorFFB6C1 {background:#FFB6C1}
+  .colorFFA07A {background:#FFA07A}
+  .color20B2AA {background:#20B2AA}
+  .color87CEFA {background:#87CEFA}
+  .color8470FF {background:#8470FF}
+  .color778899 {background:#778899}
+  .colorB0C4DE {background:#B0C4DE}
+  .colorFFFFE0 {background:#FFFFE0}
+  .color00FF00 {background:#00FF00}
+  .color32CD32 {background:#32CD32}
+  .colorFAF0E6 {background:#FAF0E6}
+  .colorFF00FF {background:#FF00FF}
+  .color800000 {background:#800000}
+  .color66CDAA {background:#66CDAA}
+  .color0000CD {background:#0000CD}
+  .colorBA55D3 {background:#BA55D3}
+  .color9370D8 {background:#9370D8}
+  .color3CB371 {background:#3CB371}
+  .color7B68EE {background:#7B68EE}
+  .color00FA9A {background:#00FA9A}
+  .color48D1CC {background:#48D1CC}
+  .colorC71585 {background:#C71585}
+  .color191970 {background:#191970}
+  .colorF5FFFA {background:#F5FFFA}
+  .colorFFE4E1 {background:#FFE4E1}
+  .colorFFE4B5 {background:#FFE4B5}
+  .colorFFDEAD {background:#FFDEAD}
+  .color000080 {background:#000080}
+  .colorFDF5E6 {background:#FDF5E6}
+  .color808000 {background:#808000}
+  .color6B8E23 {background:#6B8E23}
+  .colorFFA500 {background:#FFA500}
+  .colorFF4500 {background:#FF4500}
+  .colorDA70D6 {background:#DA70D6}
+  .colorEEE8AA {background:#EEE8AA}
+  .color98FB98 {background:#98FB98}
+  .colorAFEEEE {background:#AFEEEE}
+  .colorD87093 {background:#D87093}
+  .colorFFEFD5 {background:#FFEFD5}
+  .colorFFDAB9 {background:#FFDAB9}
+  .colorCD853F {background:#CD853F}
+  .colorFFC0CB {background:#FFC0CB}
+  .colorDDA0DD {background:#DDA0DD}
+  .colorB0E0E6 {background:#B0E0E6}
+  .color800080 {background:#800080}
+  .colorFF0000 {background:#FF0000}
+  .colorBC8F8F {background:#BC8F8F}
+  .color4169E1 {background:#4169E1}
+  .color8B4513 {background:#8B4513}
+  .colorFA8072 {background:#FA8072}
+  .colorF4A460 {background:#F4A460}
+  .color2E8B57 {background:#2E8B57}
+  .colorFFF5EE {background:#FFF5EE}
+  .colorA0522D {background:#A0522D}
+  .colorC0C0C0 {background:#C0C0C0}
+  .color87CEEB {background:#87CEEB}
+  .color6A5ACD {background:#6A5ACD}
+  .color708090 {background:#708090}
+  .colorFFFAFA {background:#FFFAFA}
+  .color00FF7F {background:#00FF7F}
+  .color4682B4 {background:#4682B4}
+  .colorD2B48C {background:#D2B48C}
+  .color008080 {background:#008080}
+  .colorD8BFD8 {background:#D8BFD8}
+  .colorFF6347 {background:#FF6347}
+  .color40E0D0 {background:#40E0D0}
+  .colorEE82EE {background:#EE82EE}
+  .colorD02090 {background:#D02090}
+  .colorF5DEB3 {background:#F5DEB3}
+  .colorFFFFFF {background:#FFFFFF}
+  .colorF5F5F5 {background:#F5F5F5}
+  .colorFFFF00 {background:#FFFF00}
+  .color9ACD32 {background:#9ACD32}
+}
